@@ -14,6 +14,7 @@
     "pull": "bun run scripts/fetch-all.ts",
     "pull:cex": "bun run scripts/fetch-cex.ts",
     "pull:cex:all": "bun run scripts/fetch-cex.ts --no-10k-limit",
+    "pull:risk": "bun run scripts/fetch-risk.ts",
     "smoke:labelcloud": "bun run scripts/smoke-labelcloud.ts",
     "prepare": "husky || true",
     "tsc": "tsc -p tsconfig.json",
